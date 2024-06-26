@@ -1,0 +1,51 @@
+/* src/App.css */
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+  color: white;
+}
+
+input {
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result {
+  font-size: 2rem;
+  color: #4caf50;
+  margin-top: 20px;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+}

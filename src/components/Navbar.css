@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .navbar.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .navbar .logo {
+    height: 40px;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .navbar .mode-toggle {
+    background: none;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: inherit;
+  }
+  
